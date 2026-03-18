@@ -24,3 +24,6 @@ jobs:
 
     - name: Push Docker Image
       run: docker push sunilemj/devops-app:latest
+
+    - name: Deploy (simulate)
+      run: echo "Image pushed. Deployment can be updated manually"
